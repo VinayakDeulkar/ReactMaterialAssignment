@@ -14,13 +14,7 @@ export class Dashborad extends Component {
                 <Grid>
                     <Grid item lg={12}>
                         <Nav/></Grid>
-                        <Grid item lg={1}>
-                    <SIdebar/></Grid>
-                    <Grid item lg={10}>
                         
-                            
-                       
-                    </Grid>
                 </Grid> </Router>
             </div>
         )

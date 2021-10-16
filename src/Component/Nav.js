@@ -1,4 +1,6 @@
 
+import SIdebar from './SIdebar'
+import  Grid  from '@mui/material/Grid'
 import  Button  from '@mui/material/Button';
 import  AppBar  from '@mui/material/AppBar';
 import  Box  from '@mui/system/Box'
@@ -42,6 +44,7 @@ export class Nav extends Component {
             <div>
                 <Router>
                 <Box sx={{flexGrow:1}}>
+                <Grid item lg={12}>
                 <AppBar position="static">
                     <Toolbar variant="dense">
                             <NavLink  to="/Dashborad">Home</NavLink>
@@ -50,11 +53,17 @@ export class Nav extends Component {
                             <Button variant="outlined" color="inherit" onClick={this.logout}>Logout</Button>
                     </Toolbar>
                 </AppBar>
+                </Grid>
+                <Grid item lg={1}>
+                    <SIdebar/>
+                    </Grid>
+                    
                 </Box>
                 <Switch>
                                 <Route path="/Dashborad/ChangePassword" exact component={ChangePassword}/>
                                 <Route path="/Dashborad" exact component={Home}/>
                             </Switch>
+                           
 {/*                 
                 {this.state.loggedIn?(<Redirect to="/Dashborad"/>):(<Redirect to="/"/>)} */}
                 </Router>
