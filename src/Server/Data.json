@@ -1,0 +1,37 @@
+{
+  "Data": [
+    {
+      "id": 1,
+      "email": "vinayakdeulkar@gmail.com",
+      "password": "Vinayak@123"
+    },
+    {
+      "id": 2,
+      "email": "sumitjoshi@gmail.com",
+      "password": "Sumit@123",
+      "name": "Sumit",
+      "city": "mumbai"
+    },
+    {
+      "id": 3,
+      "email": "kirangore@gmail.com",
+      "password": "kiru@123",
+      "name": "kiran",
+      "city": "pune"
+    },
+    {
+      "id": 4,
+      "email": "chaitanyadeshpande@gmail.com",
+      "password": "Chaitu@123",
+      "name": "Chaitu",
+      "city": "noida"
+    },
+    {
+      "id": 5,
+      "email": "manojhoji@gmail.com",
+      "password": "Manu@123",
+      "name": "Manoj",
+      "city": "pune"
+    }
+  ]
+}
